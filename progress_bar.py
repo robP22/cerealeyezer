@@ -1,5 +1,3 @@
-from time import time_ns
-
 def progress_b(progress, total, _bar='❚') -> None:
     ratio: float = progress / total
     percent: float = 100 * ratio
